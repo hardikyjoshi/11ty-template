@@ -1,0 +1,23 @@
+{
+  "name": "11ty-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.7",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33",
+    "postcss-import": "^16.0.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box
+}
+
+:after,
+:before {
+    box-sizing: inherit
+}
+
+body,
+dd,
+dl,
+dt,
+figcaption,
+figure,
+h1,
+h2,
+h3,
+h4,
+li,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+ol[class],
+ul[class] {
+    list-style: none
+}
+
+a:not([class]) {
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+    cursor: pointer
+}
+
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    line-height: normal
+}
+
+img {
+    max-width: 100%
+}

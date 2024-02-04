@@ -1,0 +1,12 @@
+@import "_reset.css";
+@import "_variables.css";
+@import "_typography.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    color: $font-color;
+}
